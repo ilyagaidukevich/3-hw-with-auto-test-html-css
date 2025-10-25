@@ -8,7 +8,7 @@
     margin: 0 auto;
     width: 100%;
     /* 📍 Максимальная ширина для контейнера */
-    max-width: 100%;
+    max-width: 1140px;
 }
 
 body {
@@ -136,6 +136,7 @@ select:hover,
     min-width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .books-list {
@@ -148,7 +149,6 @@ select:hover,
 .label {
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 20px;
 }
 
 form {
